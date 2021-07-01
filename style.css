@@ -24,13 +24,13 @@ a.nav-link {
 .navbar-brand{
     padding-right: 18%;
 }
-.button {
+.pre-header-button {
     width: 140px;
     background: #FBD214;
     padding: 9px 15px;
     text-align: center;
   }
-.button a {
+.pre-header-button a {
     text-transform: capitalize;
     text-decoration: none;
     color: #fff;
@@ -50,6 +50,18 @@ a.nav-link {
 #home {
 	background: #000;
 }
+.header-button {
+	width: 140px;
+	background: #FBD214;
+	padding: 9px 15px;
+	text-align: center;
+	margin-top: 37px;
+}
+.header-button a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+  }
 /* about-section-start */
 #about {
 	padding: 70px 0;
@@ -80,7 +92,7 @@ a.nav-link {
 .image img {
     height: 530px;
   }
-hr{
+  .about-content hr{
 	height: 3px !important;
 	width: 65px;
 	background: #000 !important;
@@ -139,3 +151,213 @@ hr{
     text-transform: uppercase;
     color: #fff;
   }
+  /* about-section-end */
+  /* skills-section-start */
+ #skills {
+	padding: 60px 0;
+}
+.header-content {
+	text-align: center;
+}
+.header-content h2 {
+	font-size: 44px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.bar1 {
+	width: 100px;
+	height: 2px;
+	background: #FBD214;
+	margin: 0 auto;
+}
+.bar2 {
+	width: 66px;
+	height: 2px;
+	background: #FBD214;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.header-content p {
+	width: 55%;
+	margin-left: 22%;
+	padding-top: 28px;
+}
+/* skills-section-end */
+/* experience-section-start */
+#experience {
+	/* padding: 60px 0; */
+}
+#experience {
+	background-image: url(img/bnr1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 400px;
+	background-position: center center;
+}
+.overlay {
+	background: #04040421;
+	height: 400px;
+}
+
+.client {
+	padding-top: 100px;
+	text-align: center;
+  }
+.icon i {
+	font-size: 50px;
+	color: #fff;
+  }
+.count p {
+	color: #fff;
+	font-size: 38px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+  }
+.count-text p {
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+  }
+/* experience-section-end */
+/* process-section-start */
+  #working-process {
+	padding: 60px 0;
+}
+.working {
+	text-align: center;
+	padding-top: 45px;
+}
+.process {
+	padding: 30px 44px;
+	box-shadow: 0 0 11px 0.5px gainsboro;
+}
+.process-num p {
+	text-align: right;
+	font-size: 35px;
+	font-weight: bold;
+	margin: 0;
+}
+.process hr {
+	margin: 0 0 10px 0;
+}
+.process-icon i {
+	font-size: 42px;
+}
+.process-content h2 {
+	font-size: 21px;
+	font-weight: bold;
+	color: #6c6c6c;
+	padding: 10px 0;
+}
+.process-content p {
+	font-size: 15px;
+	color: gray;
+}
+/* process-section-end */
+/* project-section-start */
+#project {
+	background: #F7F7F7;
+	padding: 60px 0;
+}
+.project-image img {
+	width: 100%;
+	margin: 10px;
+}
+/* get-in-touch-section-start */
+#get-intouch {
+	padding: 60px 0;
+}
+.touch-content {
+	padding: 40px 0;
+}
+.touch-contact i {
+	font-size: 19px;
+	margin-right: 10px;
+}
+ .touch-contact a {
+	text-decoration: none;
+	color: #000;
+	font-size: 17px;
+	text-transform: capitalize;
+	font-weight: bold;
+  }
+.touch-contact p {
+	color: gray;
+	padding-left: 31px;
+  }
+.touch-write {
+	margin-left: 80px;
+}
+.touch-write h3 {
+	font-size: 25px;
+	font-weight: bold;
+}
+.touch-write p {
+	color: gray;
+	padding: 12px 0;
+}	
+.touch-input input {
+	padding: 8px;
+	margin: 0 25px 28px 0;
+	width: 35%;
+	border: 1px solid #776f6f82;
+}
+.touch-input textarea {
+	width: 83%;
+	border: 1px solid #776f6f82;
+}
+/* start-pre-footer */
+#pre-footer{	
+	background: #0B0A0A;
+	padding-top: 60px;
+	color:rgb(204, 199, 199);
+}
+#pre-footer hr {
+	margin: 26px 0;
+}
+.pre-footer1 p{
+	font-size: 14px;
+}
+.line {
+	width: 4px;
+	height: 27px;
+	background: #FBD214;
+	float: left;
+	margin: 0px 9px 0 0;
+}
+.pre-content h5 {
+	font-weight: bold;
+	padding-bottom: 16px;
+	text-transform: uppercase;
+}
+.line-contact a{
+	text-decoration: none;
+	color: rgb(204, 199, 199);;
+	font-size: 17px;
+	text-transform: capitalize;
+}
+.pre-footer2 p {
+	font-size: 14px;
+	padding-top: 2px;
+	line-height: 25px;
+}
+/* footer-strat */
+.social-icon {
+	text-align: right;
+  }
+.social-icon ul {
+	list-style: none;
+  }
+  .social-icon ul li {
+	display: inline-block;
+	padding-left: 10px;
+  }
+  .social-icon ul li a {
+	float: right;
+	font-size: 23px;
+	color: #fff;
+}
