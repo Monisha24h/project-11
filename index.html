@@ -14,8 +14,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
      <!-- font-aswame -->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
-     <!-- css-link -->
+    <!-- css-link -->
      <link rel="stylesheet" href="style.css">
+    <!-- responsive-css -->
+     <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 <body>
@@ -31,11 +33,11 @@
             <div class="collapse navbar-collapse " id="demo">
                 <ul class="navbar-nav ml-auto">
                     <li><a class="nav-link" href="#home">home</a></li>
-                    <li><a class="nav-link" href="#about">experience</a></li>
-                    <li><a class="nav-link" href="#service-area">skills</a></li>
-                    <li><a class="nav-link" href="#photo-gallery">process</a></li>
-                    <li><a class="nav-link" href="#portfolio">portfolio</a></li>
-                    <li><a class="nav-link" href="#">contact</a></li>
+                    <li><a class="nav-link" href="#experience">experience</a></li>
+                    <li><a class="nav-link" href="#skills">skills</a></li>
+                    <li><a class="nav-link" href="#working-process">process</a></li>
+                    <li><a class="nav-link" href="#project">portfolio</a></li>
+                    <li><a class="nav-link" href="#get-intouch">contact</a></li>
                 </ul>
             </div>
             <div class="pre-header-button">
@@ -126,6 +128,50 @@
                         <div class="bar2"></div>
                         <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
                             ut fermentum massa justo sit amet risus. Nullam id dolor</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="bar1" class="barfiller">
+                            <div class="tipWrap">
+                            <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="90"></span>
+                        </div>
+                        <div id="bar2" class="barfiller">
+                            <div class="tipWrap">
+                            <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="80"></span>
+                        </div>
+                        <div id="bar3" class="barfiller">
+                            <div class="tipWrap">
+                            <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="70"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="bar4" class="barfiller">
+                            <div class="tipWrap">
+                            <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="90"></span>
+                        </div>
+                        <div id="bar5" class="barfiller">
+                            <div class="tipWrap">
+                            <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="80"></span>
+                        </div>
+                        <div id="bar6" class="barfiller">
+                            <div class="tipWrap">
+                            <span class="tip"></span>
+                            </div>
+                            <span class="fill" data-percentage="70"></span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -289,6 +335,7 @@
         </div>
      </div>
  </section>
+ <!-- contact-section-start -->
  <section id="get-intouch">
     <div class="container">
         <div class="row">
@@ -409,12 +456,12 @@
             </div>
             <hr>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-8">
                     <div class="footer-content">
                         <p>Proudly powered by WordPress | Theme: Arrival by WPoperation </p>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="social-icon">
                         <ul>
                             <li><a href=""><i class="fab fa-twitter"></i></a></li>
@@ -439,15 +486,90 @@
 
 
 
-
     <!-- fontawesome-link -->
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-replace-svg="nest"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/0.6.1/progressbar.min.js"></script>
-    <!-- js-link -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- js-progress-bar-link -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="JS/jquery.barfiller.js" type="text/javascript" charset="utf-8"></script>
     <!-- bootstrap-link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="js/custom.js"></script>
+
+    <script>
+    $('#bar1').barfiller({
+  // color of bar
+  barColor:'#FBD214',
+  // shows a tooltip
+  tooltip:true,
+  // duration in ms
+  duration: 1000,
+  // re-animate on resize
+  animateOnResize:true,
+// custom symbol
+  symbol:"%"
+});
+$('#bar2').barfiller({
+  // color of bar
+  barColor:'#FBD214',
+  // shows a tooltip
+  tooltip:true,
+  // duration in ms
+  duration: 1000,
+  // re-animate on resize
+  animateOnResize:true,
+// custom symbol
+  symbol:"%"
+});
+$('#bar3').barfiller({
+  // color of bar
+  barColor:'#FBD214',
+  // shows a tooltip
+  tooltip:true,
+  // duration in ms
+  duration: 1000,
+  // re-animate on resize
+  animateOnResize:true,
+// custom symbol
+  symbol:"%"
+});
+$('#bar4').barfiller({
+  // color of bar
+  barColor:'#FBD214',
+  // shows a tooltip
+  tooltip:true,
+  // duration in ms
+  duration: 1000,
+  // re-animate on resize
+  animateOnResize:true,
+// custom symbol
+  symbol:"%"
+});
+$('#bar5').barfiller({
+  // color of bar
+  barColor:'#FBD214',
+  // shows a tooltip
+  tooltip:true,
+  // duration in ms
+  duration: 1000,
+  // re-animate on resize
+  animateOnResize:true,
+// custom symbol
+  symbol:"%"
+});
+$('#bar6').barfiller({
+  // color of bar
+  barColor:'#FBD214',
+  // shows a tooltip
+  tooltip:true,
+  // duration in ms
+  duration: 1000,
+  // re-animate on resize
+  animateOnResize:true,
+// custom symbol
+  symbol:"%"
+});
+
+ </script>
 </body>
 </html>

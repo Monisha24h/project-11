@@ -14,12 +14,18 @@ h1,h2,h3,h4,p,a{
 .navbar{
     height: 80px;
     background-color: #000!important;
+	position: sticky;
+	top: 0;
 }
 a.nav-link {
 	font-size: 15px;
 	text-transform: capitalize;
 	color: #fff !important;
 	padding: 0 12px !important;
+}
+.nav-link:hover {
+	border-bottom: 2px solid rgb(189, 74, 7);
+	transition: 3s;
 }
 .navbar-brand{
     padding-right: 18%;
@@ -66,6 +72,7 @@ a.nav-link {
 #about {
 	padding: 70px 0;
 	position: relative;
+	z-index: -1;
 }
 .about-img {
     position: relative;
@@ -137,7 +144,7 @@ a.nav-link {
     color: #fff;
   }
 .button-now:hover {
-    background: #022144;
+    background: #022144 !important;
   }
 .button-resume{
     float: left;
@@ -155,6 +162,7 @@ a.nav-link {
   /* skills-section-start */
  #skills {
 	padding: 60px 0;
+	z-index: 1;
 }
 .header-content {
 	text-align: center;
@@ -182,6 +190,97 @@ a.nav-link {
 	margin-left: 22%;
 	padding-top: 28px;
 }
+.skill-bar {
+	padding-top: 52px;
+}
+/* .skill-name {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+	margin: 20px 0;
+  }
+  .skill-bar {
+	width: 100%;
+	height: 20px;
+	background: #ddddc7;
+	border-radius: 8px;
+  }
+  .skill-par {
+	height: 20px;
+	background: yellow;
+	border-radius: 8px;
+	width: 0%;
+	position: relative;
+  }
+  .skill-par::before {
+	content: attr(par);
+	position: absolute;
+	padding: 2px 4px;
+	background: #000;	
+	color: #fff;
+	font-size: 10px;
+	border-radius: 6px;
+	top: -32px;
+    right: 0;
+  }
+  .skill-par::after {
+	content: '';
+	width: 8px;
+	height: 8px;
+	background: #000;
+	position: absolute;
+	right: 11px;
+	top: -17px;
+	border-radius: 2px;
+	transform: translatex(50%) rotate(45deg);
+} */
+.barfiller {
+	width: 85%;
+	height: 12px;
+	background: #fcfcfc;
+	border: 1px solid #ccc;
+	position: relative;
+	margin-bottom: 50px;
+	box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5);
+	-moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,.5);
+	border-radius: 5px;
+	z-index: -1;
+  }
+  
+  .barfiller .fill {
+	display: block;
+	position: relative;
+	width: 0px;
+	height: 100%;
+	background: #333;
+	z-index: 1;
+  }
+  
+  .barfiller .tipWrap { display: none; }
+  
+  .barfiller .tip {
+	margin-top: -30px;
+	padding: 2px 4px;
+	font-size: 11px;
+	color: #fff;
+	left: 0px;
+	position: absolute;
+	z-index: 2;
+	background: #333;
+  }
+  
+  .barfiller .tip:after {
+	border: solid;
+	border-color: rgba(0,0,0,.8) transparent;
+	border-width: 6px 6px 0 6px;
+	content: "";
+	display: block;
+	position: absolute;
+	left: 9px;
+	top: 100%;
+	z-index: 9
+  }
+  
 /* skills-section-end */
 /* experience-section-start */
 #experience {
